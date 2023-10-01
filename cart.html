@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="icon" type="image/ico" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="">  Shop<span>Spot.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+  
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="img/logo.png" alt="">  Shop<span>Spot.</span></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mproduct.html">Men's</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="wproduct.html">Women's</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="eproduct.html">Electronic</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="review.html">Review</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact-us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- cart table -->
+    <br><br><br><br><br>
+    <section id="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="fas fa-trash"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astrnaut T-shirts</td>
+                    <td>1000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1000</td>
+
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fas fa-trash"></i></a></td>
+                    <td><img src="img/products/k4.webp" alt=""></td>
+                    <td>Kurta</td>
+                    <td>2000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>2000</td>
+
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fas fa-trash"></i></a></td>
+                    <td><img src="img/products/t-s3.webp" alt=""></td>
+                    <td>Causel T-shirt</td>
+                    <td>800</td>
+                    <td><input type="number" value="1"></td>
+                    <td>800</td>
+
+                </tr>
+           
+
+            </tbody>
+
+        </table>
+    </section>
+
+
+    <!-- payment section -->
+
+    <section id="cart-add">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+            
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+         </div>
+
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td>Rs.3800.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs.3800.00</strong></td>
+                </tr>
+            </table>
+            <button class="checkout-btn">Proceed To Checkout</button>
+        </div>
+
+
+    </section>
+
+
+    <footer class="section-p">
+        <div class="col">
+          <h3 class="logo"><img src="img/logo.png" alt=""> Shop <span>Spot.</span></h3>
+          <h4>Contact</h4>
+          <p><strong>Address:</strong> 560 Rashid Minas Road, Street 23, Sindh Karachi</p>
+          <p><strong>Phone:</strong> +92 3094755424 /(+92) 3094755424</p>
+          <p><strong>Hours:</strong> 12:00 - 20:00, Mon - Sun</p>
+
+          <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+              <a href="https://www.facebook.com/faraz.soormro/"><i class="fab fa-facebook-f"></i></a>
+                <i class="fab fa-instagram"></i>
+                <a href="https://www.linkedin.com/in/faraz-ahmed-5062bb286/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col">
+          <h4>About</h4>
+          <a href="index.html">About us</a>
+          <a href="">Delivery Information</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms & Conditions</a>
+          <a href="contact-us.html">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="">Sign in</a>
+        <a href="cart.html">View Cart</a>
+    </div>
+
+    <div class="col">
+      <p>Secured Payment Gateways</p>
+      <img src="img/pay.png" alt="">
+    </div>
+
+    <div class="copyright">
+      <p>Copyright © 2023 ShopSpot All Rights Reserved | By Faraz Ahmed</p>
+    </div>
+    </footer>
+
+</body>
+</html>
